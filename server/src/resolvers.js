@@ -21,6 +21,12 @@ const resolvers = {
     getEntryById(_, { id }) {
       return db.getEntryById(id);
     },
+    getEntriesByHabitId(_, { id }) {
+      return db.getEntriesByHabitId(id);
+    },
+    totalPoints() {
+      return db.getTotalPoints();
+    },
   },
   Mutation: {
     createHabit(_, { input }) {

@@ -45,11 +45,18 @@ const typeDefs = gql`
     success: Boolean!
   }
 
+  type TotalPoints {
+    points: Int!
+    totalCompletedEntries: Int!
+  }
+
   type Query {
     habits: [Habit]!
     getHabitById(id: ID!): Habit!
     entries: [Entry]!
     getEntryById(id: ID!): Entry!
+    getEntriesByHabitId(id: ID!): [Entry]!
+    totalPoints: TotalPoints!
   }
 
   type Mutation {

@@ -115,6 +115,13 @@ const updatePoints = (habitId) => {
   habit.points = points;
 };
 
+const getTotalPoints = () => {
+  const completedEntries = data.entries.filter((e) => e.completed);
+  const totalCompletedEntries = completedEntries.length;
+  const points = totalCompletedEntries * 10;
+  return { totalCompletedEntries, points };
+};
+
 module.exports = {
   getHabits,
   getHabitById,
@@ -127,4 +134,5 @@ module.exports = {
   addEntry,
   updateEntry,
   deleteEntry,
+  getTotalPoints
 };
