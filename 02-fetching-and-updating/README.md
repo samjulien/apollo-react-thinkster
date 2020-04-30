@@ -1,11 +1,21 @@
 # Fetching and Updating Data with Queries and Mutations
 Welcome to part two of **Boost Your React Apps with Apollo**! 🚀
 
-In this section, you're going to learn more about using basic queries and mutations in GraphQL with Apollo. My goal for you by the end of this section is to feel comfortable replacing those usual CRUD (create, read, update, delete) operations you do with REST with GraphQL queries and mutations. We're going to start to see some of the magic of GraphQL here, but it should still be an easy transition for you.
+In this section, you're going to learn about fetching and updating data using queries and mutations. My goal for you by the end of this section is to feel comfortable replacing those usual CRUD (create, read, update, delete) operations you do with REST with GraphQL queries and mutations. We're going to start to see some of the magic of GraphQL here, but it should still be an easy transition for you.
 
 For this section, I've provided a starting point in `./starting-point`. This is an improved and styled version of what we did in [part 1 of this series](https://thinkster.io/tutorials/boost-your-react-apps-with-apollo-first-steps). 
 
-To save us a little time, I've provided an `AddHabit` component with basic functionality that we'll use in this tutorial. Otherwise, you'll just be following along with what I do. As always, I still provide the finished code (in `./finished-code`) in case you miss something or need a reference point.
+To save us a little time, I've provided an `AddHabit` component with basic functionality that we'll use in this tutorial. Otherwise, you'll just be following along with what I do. 
+
+To install the dependencies for and run the starting point, run:
+
+```bash
+cd 02-fetching-and-updating/starting-point/habit-tracker/
+npm install
+npm start
+```
+
+As always, I still provide the finished code (in `./finished-code`) in case you miss something or need a reference point.
 
 This tutorial uses the same server we used in part 1 (it's at `../server`). You should be able to just run:
 
