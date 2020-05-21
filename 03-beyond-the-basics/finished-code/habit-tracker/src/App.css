@@ -1,0 +1,65 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.blue-button {
+  border-radius: 5px;
+  padding: 3px 8px;
+  margin: 0 0 5px 5px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+
+.blue-button:disabled {
+  background-color: cornflowerblue;
+  transition: ease-in 0.2s;
+}
+
+.red-button {
+  border-radius: 5px;
+  padding: 3px 8px;
+  margin: 0 0 5px 5px;
+  background-color: #cd5858;
+  color: white;
+  font-size: 16px;
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+
+.red-button:disabled {
+  background-color: rgb(226, 192, 192);
+  transition: ease-in 0.2s;
+}
+
+.emoji-button {
+  border: blue solid 1px;
+  height: 26px;
+  font-size: 12px;
+  padding: 2px 8px;
+  margin: 0 2px 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.emoji-button:hover {
+  background-color: rgb(193, 211, 244);
+  transition: ease-in 0.2s;
+}
+
+input[type="text"] {
+  font-size: 16px;
+}
+
+.bottom-margin {
+  margin-bottom: 10px;
+}
+
+.habit-list {
+  margin: 10px;
+  padding-inline-start: 10px;
+}
