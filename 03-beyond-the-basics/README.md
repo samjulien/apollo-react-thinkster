@@ -36,7 +36,7 @@ Let's get started!
 
 ## Helpful Links
 
-- [Apollo docs: useMutation API](hhttps://www.apollographql.com/docs/react/v3.0-beta/data/mutations/#usemutation-api)
+- [Apollo docs: useMutation API](https://www.apollographql.com/docs/react/v3.0-beta/data/mutations/#usemutation-api)
 - [Apollo docs: Configuring the Cache](https://www.apollographql.com/docs/react/v3.0-beta/caching/cache-configuration/)
 - [Apollo docs: Updating the Cache after a Mutation](https://www.apollographql.com/docs/react/v3.0-beta/data/mutations/#updating-the-cache-after-a-mutation)
 - [Apollo docs: Interacting with the Cache](https://www.apollographql.com/docs/react/v3.0-beta/caching/cache-interaction/)
