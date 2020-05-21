@@ -8,7 +8,7 @@ For this section, I've provided a starting point in `./starting-point`. This is 
 To install the dependencies for and run the starting point, run:
 
 ```bash
-cd 02-beyond-the-basics/starting-point/habit-tracker/
+cd 03-beyond-the-basics/starting-point/habit-tracker/
 npm install
 npm start
 ```
