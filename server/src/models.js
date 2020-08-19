@@ -18,7 +18,7 @@ const getHabitById = (habitId) => {
 
 const addHabit = (newHabitInput) => {
   const sortedIds = data.habits.map((habit) => habit.id).sort((a, b) => a - b);
-  const maxId = sortedIds[sortedIds.length - 1];
+  const maxId = sortedIds[sortedIds.length - 1] || 0;
   const newId = maxId + 1;
   const habitToAdd = { id: newId, points: 0, entries: [], ...newHabitInput };
   data.habits.push(habitToAdd);
